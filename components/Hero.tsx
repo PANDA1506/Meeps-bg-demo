@@ -27,7 +27,7 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="inline-block bg-gold/20 text-ink px-4 py-1.5 rounded-full text-sm font-semibold mb-6"
         >
-          12–14 Sep 2026 · Indore Convention Centre
+          12–14 Sep 2026 · Bhopal
         </motion.span>
 
         <motion.h1
