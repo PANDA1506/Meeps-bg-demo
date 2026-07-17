@@ -121,7 +121,7 @@ export default function Hero() {
             transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
             className="w-2 h-2 rounded-full bg-cherry inline-block"
           />
-          12–14 Sep 2026 · Indore Convention Centre
+          12–14 Sep 2026 ·  Bhopal Meeps
         </motion.span>
 
         <motion.h1
