@@ -6,5 +6,5 @@ No backend required — all editable content lives in `/data/*.json`.
 ## Run locally
 npm install
 npm run dev
-# open http://localhost:3000
+
 
