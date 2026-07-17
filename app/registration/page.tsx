@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import { CalendarDays, Ticket, CheckCircle2, ListOrdered } from "lucide-react";
@@ -97,7 +97,7 @@ export default function RegistrationPage() {
         </ol>
       </section>
 
-      <section className="mb-16">
+      {/* <section className="mb-16">
         <h2 className="font-heading text-2xl font-semibold mb-6">Learning Sessions</h2>
         <div className="grid sm:grid-cols-2 gap-4">
           {SESSIONS.map((s) => (
@@ -111,7 +111,7 @@ export default function RegistrationPage() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       <div className="text-center">
         <a
@@ -126,3 +126,6 @@ export default function RegistrationPage() {
     </div>
   );
 }
+
+
+

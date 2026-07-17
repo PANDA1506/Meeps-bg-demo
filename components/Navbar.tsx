@@ -7,11 +7,11 @@ import { Menu, X, Dice5 } from "lucide-react";
 const LINKS = [
   { href: "/", label: "Home" },
   { href: "/registration", label: "Registration" },
+  { href: "/league-format", label: "League & Championship" },
   { href: "/points-table", label: "Points Table" },
   { href: "/schedule", label: "Schedule" },
-  { href: "/rules", label: "Rules" },
+  { href: "/rules", label: "Rules & Regulations" },
   { href: "/about", label: "About Us" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export default function Navbar() {

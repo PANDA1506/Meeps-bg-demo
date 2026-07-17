@@ -64,7 +64,7 @@ export default function Hero() {
             Register Now
           </Link>
           <Link
-            href="#league-info"
+            href="/league-format"
             className="btn-scale bg-transparent border-2 border-ink px-8 py-4 rounded-full font-semibold"
           >
             Explore the League
