@@ -26,6 +26,7 @@
 
 
 import Hero from "@/components/Hero";
+import StatsCounter from "@/components/StatsCounter";
 import Highlights from "@/components/Highlights";
 import Venue from "@/components/Venue";
 import Sponsors from "@/components/Sponsors";
@@ -35,6 +36,7 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <StatsCounter />
       <Highlights />
       <Venue />
       <Sponsors />

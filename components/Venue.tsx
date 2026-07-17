@@ -9,7 +9,7 @@ export default function Venue() {
       <div>
         <h2 className="font-heading text-4xl font-semibold mb-4">Venue</h2>
         <p className="text-ink/70 mb-6">
-          Indore Convention Centre, RNT Marg, Indore, Madhya Pradesh — a spacious,
+          Meepleton, Danish kunj, Bhopal, Madhya Pradesh — a spacious,
           air-conditioned venue with dedicated tournament halls and casual play lounges.
         </p>
         <div className="grid grid-cols-2 gap-4 text-sm">
