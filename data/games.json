@@ -1,10 +1,310 @@
+
+
 [
-  { "id": "catan", "name": "Catan", "category": "Euro Game", "description": "Trade, build and settle your way to the largest empire on the island.", "color": "forest" },
-  { "id": "codenames", "name": "Codenames", "category": "Social Deduction", "description": "Give one-word clues to help your team find every agent before the enemy does.", "color": "cherry" },
-  { "id": "splendor", "name": "Splendor", "category": "Strategy", "description": "Collect gems, build your merchant empire, and outpace rival traders.", "color": "sky" },
-  { "id": "ticket-to-ride", "name": "Ticket to Ride", "category": "Strategy", "description": "Claim railway routes across the map and connect the farthest cities first.", "color": "gold" },
-  { "id": "azul", "name": "Azul", "category": "Euro Game", "description": "Draft glowing tiles to craft the most elegant palace wall in the realm.", "color": "tangerine" },
-  { "id": "werewolf", "name": "Werewolf", "category": "Party Game", "description": "Debate, bluff and vote — can the village find the wolves before dawn?", "color": "cherry" },
-  { "id": "chess", "name": "Chess Blitz", "category": "Strategy", "description": "Fast-paced blitz rounds testing pure strategic depth under the clock.", "color": "forest" },
-  { "id": "carcassonne", "name": "Carcassonne", "category": "Euro Game", "description": "Lay tiles to build cities, roads and cloisters across the countryside.", "color": "sky" }
+  {
+    "id": "uno",
+    "name": "UNO",
+    "category": "Party Game",
+    "description": "Match colors and numbers, dodge Draw Fours, and be first to empty your hand.",
+    "color": "cherry",
+    "players": "2–10 players",
+    "duration": "15–30 min",
+    "ageRange": "7+",
+    "difficulty": "Easy",
+    "tags": ["Card Game", "Family Friendly", "Quick Play"],
+    "howToPlay": [
+      "Match the top card of the discard pile by color, number, or symbol.",
+      "Use action cards (Skip, Reverse, Draw Two, Wild) to disrupt opponents.",
+      "Call \"UNO\" when you're down to your last card.",
+      "First player to empty their hand wins the round."
+    ]
+  },
+  {
+    "id": "anomia",
+    "name": "Anomia",
+    "category": "Party Game",
+    "description": "Fast-paced matching game where quick reflexes and quicker answers win the round.",
+    "color": "gold",
+    "players": "3–6 players",
+    "duration": "15–20 min",
+    "ageRange": "10+",
+    "difficulty": "Easy",
+    "tags": ["Word Game", "Fast-Paced", "Party"],
+    "howToPlay": [
+      "Flip cards from your deck one at a time.",
+      "When two players' symbols match, race to name an example of the opposing category.",
+      "The slower player hands over their card as a penalty.",
+      "First to collect a set number of opponents' cards wins."
+    ]
+  },
+  {
+    "id": "trio",
+    "name": "Trio",
+    "category": "Party Game",
+    "description": "Guess the answer before your opponents in this rapid-fire card guessing game.",
+    "color": "sky",
+    "players": "3–6 players",
+    "duration": "15–20 min",
+    "ageRange": "8+",
+    "difficulty": "Easy",
+    "tags": ["Trivia", "Fast-Paced", "Party"],
+    "howToPlay": [
+      "A category card is revealed to all players.",
+      "Each player secretly guesses a number linked to the category.",
+      "Reveal simultaneously — closest correct guesses score points.",
+      "Most points after all rounds wins."
+    ]
+  },
+  {
+    "id": "exploding-kittens",
+    "name": "Exploding Kittens",
+    "category": "Party Game",
+    "description": "A card game of chance and strategy — avoid the exploding kitten, or defuse it in time.",
+    "color": "tangerine",
+    "players": "2–5 players",
+    "duration": "15 min",
+    "ageRange": "7+",
+    "difficulty": "Easy",
+    "tags": ["Card Game", "Push Your Luck", "Party"],
+    "howToPlay": [
+      "Draw a card each turn — avoid drawing an Exploding Kitten.",
+      "Use action cards to skip, peek, or shuffle the deck to survive.",
+      "Defuse an Exploding Kitten if you draw one and have a Defuse card.",
+      "Last player left in the game wins."
+    ]
+  },
+  {
+    "id": "sequence",
+    "name": "Sequence",
+    "category": "Strategy",
+    "description": "Blend cards and board play to form a sequence of five chips before your rivals.",
+    "color": "forest",
+    "players": "2–12 players",
+    "duration": "30–45 min",
+    "ageRange": "8+",
+    "difficulty": "Medium",
+    "tags": ["Board & Cards", "Team Play", "Strategy"],
+    "howToPlay": [
+      "Play a card from your hand and place a chip on the matching board space.",
+      "Jacks let you place or remove chips freely.",
+      "Form a line of five chips — horizontally, vertically, or diagonally.",
+      "First team or player to complete the required sequences wins."
+    ]
+  },
+  {
+    "id": "splendor",
+    "name": "Splendor",
+    "category": "Strategy",
+    "description": "Collect gems, build your merchant empire, and outpace rival traders.",
+    "color": "sky",
+    "players": "2–4 players",
+    "duration": "30 min",
+    "ageRange": "10+",
+    "difficulty": "Medium",
+    "tags": ["Engine Building", "Economic", "Strategy"],
+    "howToPlay": [
+      "Collect gem tokens or reserve development cards each turn.",
+      "Spend gems to purchase cards that grant permanent bonuses.",
+      "Attract nobles by meeting their card requirements for bonus points.",
+      "First to 15 prestige points triggers the final round — highest score wins."
+    ]
+  },
+  {
+    "id": "azul",
+    "name": "Azul",
+    "category": "Euro Game",
+    "description": "Draft glowing tiles to craft the most elegant palace wall in the realm.",
+    "color": "tangerine",
+    "players": "2–4 players",
+    "duration": "30–45 min",
+    "ageRange": "8+",
+    "difficulty": "Medium",
+    "tags": ["Tile Drafting", "Abstract", "Strategy"],
+    "howToPlay": [
+      "Draft tiles of a single color from factory displays each round.",
+      "Place drafted tiles onto your staging rows.",
+      "Completed rows move tiles onto your wall for scoring, penalizing overflow.",
+      "Game ends when a player completes a horizontal wall row — highest score wins."
+    ]
+  },
+  {
+    "id": "catan",
+    "name": "Catan",
+    "category": "Euro Game",
+    "description": "Trade, build and settle your way to the largest empire on the island.",
+    "color": "forest",
+    "players": "3–4 players",
+    "duration": "60–90 min",
+    "ageRange": "10+",
+    "difficulty": "Medium",
+    "tags": ["Trading", "Building", "Strategy"],
+    "howToPlay": [
+      "Roll dice each turn to generate resources from adjacent terrain.",
+      "Trade resources with other players or the bank.",
+      "Spend resources to build roads, settlements, and cities.",
+      "First player to reach 10 victory points wins."
+    ]
+  },
+  {
+    "id": "cascadia",
+    "name": "Cascadia",
+    "category": "Euro Game",
+    "description": "Lay habitat tiles and place wildlife to build the most harmonious nature reserve.",
+    "color": "sky",
+    "players": "1–4 players",
+    "duration": "30–45 min",
+    "ageRange": "10+",
+    "difficulty": "Medium",
+    "tags": ["Tile Laying", "Nature", "Puzzle"],
+    "howToPlay": [
+      "Draft a paired habitat tile and wildlife token each turn.",
+      "Place the tile to expand your landscape and the token onto matching habitat.",
+      "Score points for wildlife groupings and habitat corridors at game end.",
+      "Highest combined score across all scoring categories wins."
+    ]
+  },
+  {
+    "id": "wingspan",
+    "name": "Wingspan",
+    "category": "Euro Game",
+    "description": "Attract birds to your wildlife preserves in this beautifully engine-building game.",
+    "color": "gold",
+    "players": "1–5 players",
+    "duration": "40–70 min",
+    "ageRange": "10+",
+    "difficulty": "Medium",
+    "tags": ["Engine Building", "Nature", "Card Game"],
+    "howToPlay": [
+      "Play bird cards into forest, grassland, or wetland habitats.",
+      "Activate habitat rows to gain food, lay eggs, or draw cards.",
+      "Chain bird abilities together to build a powerful engine.",
+      "Highest score after 4 rounds — from birds, eggs, food, and bonuses — wins."
+    ]
+  },
+  {
+    "id": "7-wonders",
+    "name": "7 Wonders",
+    "category": "Strategy",
+    "description": "Draft cards across three ages to build a civilization that stands the test of time.",
+    "color": "cherry",
+    "players": "3–7 players",
+    "duration": "30–45 min",
+    "ageRange": "10+",
+    "difficulty": "Medium",
+    "tags": ["Card Drafting", "Civilization", "Strategy"],
+    "howToPlay": [
+      "Draft one card from your hand each turn, then pass the rest along.",
+      "Build structures, military, or wonder stages using resources.",
+      "Compare military strength with neighbors at the end of each age.",
+      "Highest total score from civilian, military, science, and wonders wins."
+    ]
+  },
+  {
+    "id": "cryptid",
+    "name": "Cryptid",
+    "category": "Social Deduction",
+    "description": "Use logic and sly deduction to be the first to pinpoint the creature's hidden location.",
+    "color": "forest",
+    "players": "3–5 players",
+    "duration": "30–50 min",
+    "ageRange": "10+",
+    "difficulty": "Hard",
+    "tags": ["Deduction", "Logic", "Asymmetric"],
+    "howToPlay": [
+      "Each player holds a private clue about the creature's location.",
+      "Ask other players questions to gather information, revealed via their clue.",
+      "Eliminate map spaces using logic until one remains.",
+      "First to correctly guess the creature's exact location wins."
+    ]
+  },
+  {
+    "id": "heat",
+    "name": "Heat",
+    "category": "Strategy",
+    "description": "Race, draft gears, and manage your engine heat to cross the finish line first.",
+    "color": "tangerine",
+    "players": "1–6 players",
+    "duration": "30–75 min",
+    "ageRange": "10+",
+    "difficulty": "Medium",
+    "tags": ["Racing", "Card Game", "Strategy"],
+    "howToPlay": [
+      "Play speed cards from your hand to move your car along the track.",
+      "Shift gears and manage heat cards to handle corners without spinning out.",
+      "Slipstream behind rivals for extra speed on straights.",
+      "First car to complete all laps wins the race."
+    ]
+  },
+  {
+    "id": "everdell",
+    "name": "Everdell",
+    "category": "Euro Game",
+    "description": "Build a woodland city of critters and constructions across four charming seasons.",
+    "color": "forest",
+    "players": "1–4 players",
+    "duration": "40–80 min",
+    "ageRange": "10+",
+    "difficulty": "Hard",
+    "tags": ["City Building", "Engine Building", "Strategy"],
+    "howToPlay": [
+      "Gather resources by placing workers on the board each season.",
+      "Play critter and construction cards to build your city.",
+      "Chain card abilities together to grow your engine efficiently.",
+      "Highest points from your city, events, and journey at game end wins."
+    ]
+  },
+  {
+    "id": "castles-of-burgundy",
+    "name": "Castles Of Burgundy",
+    "category": "Euro Game",
+    "description": "Roll, place, and build your way to the most prosperous estate in Burgundy.",
+    "color": "gold",
+    "players": "2–4 players",
+    "duration": "60–90 min",
+    "ageRange": "12+",
+    "difficulty": "Hard",
+    "tags": ["Dice Placement", "Territory Building", "Strategy"],
+    "howToPlay": [
+      "Roll dice to select tiles from the central display each turn.",
+      "Place tiles onto your player board to complete regions.",
+      "Complete regions to trigger bonus actions and score points.",
+      "Highest total score after five phases wins."
+    ]
+  },
+  {
+    "id": "brass-birmingham",
+    "name": "Brass Birmingham",
+    "category": "Strategy",
+    "description": "Build industries and networks across two eras of the Industrial Revolution.",
+    "color": "sky",
+    "players": "2–4 players",
+    "duration": "90–120 min",
+    "ageRange": "14+",
+    "difficulty": "Hard",
+    "tags": ["Economic", "Network Building", "Heavy Strategy"],
+    "howToPlay": [
+      "Build industry tiles and canal or rail links across the map.",
+      "Sell goods to generate income and score victory points.",
+      "Develop and upgrade industries to unlock stronger tiles.",
+      "Highest combined score across both eras wins."
+    ]
+  },
+  {
+    "id": "blood-on-the-clocktower",
+    "name": "Blood on the Clocktower",
+    "category": "Social Deduction",
+    "description": "A narrator-led social deduction game of secret roles, bluffing, and nightly murder.",
+    "color": "cherry",
+    "players": "5–15 players",
+    "duration": "60–120 min",
+    "ageRange": "14+",
+    "difficulty": "Hard",
+    "tags": ["Social Deduction", "Bluffing", "Narrator-Led"],
+    "howToPlay": [
+      "Each player is secretly assigned a good or evil role by the Storyteller.",
+      "By night, evil roles act in secret; by day, the town debates and votes.",
+      "Use claimed information and bluffing to identify the evil players.",
+      "Good wins by executing all evil players; evil wins by eliminating enough good players."
+    ]
+  }
 ]
