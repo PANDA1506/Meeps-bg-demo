@@ -1,5 +1,3 @@
-
-
 [
   {
     "id": "uno",
@@ -11,13 +9,19 @@
     "duration": "15–30 min",
     "ageRange": "7+",
     "difficulty": "Easy",
-    "tags": ["Card Game", "Family Friendly", "Quick Play"],
+    "tags": [
+      "Card Game",
+      "Family Friendly",
+      "Quick Play"
+    ],
     "howToPlay": [
       "Match the top card of the discard pile by color, number, or symbol.",
       "Use action cards (Skip, Reverse, Draw Two, Wild) to disrupt opponents.",
       "Call \"UNO\" when you're down to your last card.",
       "First player to empty their hand wins the round."
-    ]
+    ],
+    "image": "/games/uno.jpg",
+    "longDescription": "UNO has been a household staple for decades because it's easy to teach in under a minute but still sparks genuine tension every time someone slaps down a Draw Four. It plays fast, scales from small family groups to large party tables, and rarely lasts more than half an hour."
   },
   {
     "id": "anomia",
@@ -29,13 +33,19 @@
     "duration": "15–20 min",
     "ageRange": "10+",
     "difficulty": "Easy",
-    "tags": ["Word Game", "Fast-Paced", "Party"],
+    "tags": [
+      "Word Game",
+      "Fast-Paced",
+      "Party"
+    ],
     "howToPlay": [
       "Flip cards from your deck one at a time.",
       "When two players' symbols match, race to name an example of the opposing category.",
       "The slower player hands over their card as a penalty.",
       "First to collect a set number of opponents' cards wins."
-    ]
+    ],
+    "image": "/games/anomia.jpg",
+    "longDescription": "Anomia turns everyday knowledge into a reflex test — the moment two symbols match, players race to blurt out an example before their opponent does. It's loud, fast, and surprisingly good at exposing who really knows their movie trivia under pressure."
   },
   {
     "id": "trio",
@@ -47,13 +57,19 @@
     "duration": "15–20 min",
     "ageRange": "8+",
     "difficulty": "Easy",
-    "tags": ["Trivia", "Fast-Paced", "Party"],
+    "tags": [
+      "Trivia",
+      "Fast-Paced",
+      "Party"
+    ],
     "howToPlay": [
       "A category card is revealed to all players.",
       "Each player secretly guesses a number linked to the category.",
       "Reveal simultaneously — closest correct guesses score points.",
       "Most points after all rounds wins."
-    ]
+    ],
+    "image": "/games/trio.jpg",
+    "longDescription": "Trio rewards players who can read a room as well as a category card. Since everyone guesses simultaneously, it blends genuine trivia knowledge with a bit of psychology — guessing what everyone else is likely to guess."
   },
   {
     "id": "exploding-kittens",
@@ -65,13 +81,19 @@
     "duration": "15 min",
     "ageRange": "7+",
     "difficulty": "Easy",
-    "tags": ["Card Game", "Push Your Luck", "Party"],
+    "tags": [
+      "Card Game",
+      "Push Your Luck",
+      "Party"
+    ],
     "howToPlay": [
       "Draw a card each turn — avoid drawing an Exploding Kitten.",
       "Use action cards to skip, peek, or shuffle the deck to survive.",
       "Defuse an Exploding Kitten if you draw one and have a Defuse card.",
       "Last player left in the game wins."
-    ]
+    ],
+    "image": "/games/exploding-kittens.jpg",
+    "longDescription": "Exploding Kittens takes the tension of Russian roulette and wraps it in bright, silly cat-themed cards. It's built for quick, high-energy rounds where laughter and groans happen in equal measure."
   },
   {
     "id": "sequence",
@@ -83,13 +105,19 @@
     "duration": "30–45 min",
     "ageRange": "8+",
     "difficulty": "Medium",
-    "tags": ["Board & Cards", "Team Play", "Strategy"],
+    "tags": [
+      "Board & Cards",
+      "Team Play",
+      "Strategy"
+    ],
     "howToPlay": [
       "Play a card from your hand and place a chip on the matching board space.",
       "Jacks let you place or remove chips freely.",
       "Form a line of five chips — horizontally, vertically, or diagonally.",
       "First team or player to complete the required sequences wins."
-    ]
+    ],
+    "image": "/games/sequence.jpg",
+    "longDescription": "Sequence blends the unpredictability of a card draw with the strategic depth of a board game, since your hand dictates where you're allowed to play. Games often come down to a last-second block, making it a favorite for tense team play."
   },
   {
     "id": "splendor",
@@ -101,13 +129,19 @@
     "duration": "30 min",
     "ageRange": "10+",
     "difficulty": "Medium",
-    "tags": ["Engine Building", "Economic", "Strategy"],
+    "tags": [
+      "Engine Building",
+      "Economic",
+      "Strategy"
+    ],
     "howToPlay": [
       "Collect gem tokens or reserve development cards each turn.",
       "Spend gems to purchase cards that grant permanent bonuses.",
       "Attract nobles by meeting their card requirements for bonus points.",
       "First to 15 prestige points triggers the final round — highest score wins."
-    ]
+    ],
+    "image": "/games/splendor.jpg",
+    "longDescription": "Splendor is a quiet, elegant engine-builder where every gem token and development card you acquire makes your future turns cheaper and faster. It rewards long-term planning without ever feeling slow, wrapping up in about half an hour."
   },
   {
     "id": "azul",
@@ -119,13 +153,19 @@
     "duration": "30–45 min",
     "ageRange": "8+",
     "difficulty": "Medium",
-    "tags": ["Tile Drafting", "Abstract", "Strategy"],
+    "tags": [
+      "Tile Drafting",
+      "Abstract",
+      "Strategy"
+    ],
     "howToPlay": [
       "Draft tiles of a single color from factory displays each round.",
       "Place drafted tiles onto your staging rows.",
       "Completed rows move tiles onto your wall for scoring, penalizing overflow.",
       "Game ends when a player completes a horizontal wall row — highest score wins."
-    ]
+    ],
+    "image": "/games/azul.jpg",
+    "longDescription": "Azul turns a simple act of tile-drafting into a genuinely tricky puzzle — take too many of one color and you'll be penalized, take too few and you fall behind. Its physical tiles and clean visual design make it as satisfying to look at as it is to play."
   },
   {
     "id": "catan",
@@ -137,13 +177,19 @@
     "duration": "60–90 min",
     "ageRange": "10+",
     "difficulty": "Medium",
-    "tags": ["Trading", "Building", "Strategy"],
+    "tags": [
+      "Trading",
+      "Building",
+      "Strategy"
+    ],
     "howToPlay": [
       "Roll dice each turn to generate resources from adjacent terrain.",
       "Trade resources with other players or the bank.",
       "Spend resources to build roads, settlements, and cities.",
       "First player to reach 10 victory points wins."
-    ]
+    ],
+    "image": "/games/catan.jpg",
+    "longDescription": "Catan remains one of the most influential board games ever made, introducing an entire generation to trading, resource management, and the particular heartbreak of a well-placed robber. No two games play out the same way twice."
   },
   {
     "id": "cascadia",
@@ -155,13 +201,19 @@
     "duration": "30–45 min",
     "ageRange": "10+",
     "difficulty": "Medium",
-    "tags": ["Tile Laying", "Nature", "Puzzle"],
+    "tags": [
+      "Tile Laying",
+      "Nature",
+      "Puzzle"
+    ],
     "howToPlay": [
       "Draft a paired habitat tile and wildlife token each turn.",
       "Place the tile to expand your landscape and the token onto matching habitat.",
       "Score points for wildlife groupings and habitat corridors at game end.",
       "Highest combined score across all scoring categories wins."
-    ]
+    ],
+    "image": "/games/cascadia.jpg",
+    "longDescription": "Cascadia is a calm, puzzle-like game about building the most harmonious landscape you can, balancing habitat variety against wildlife scoring patterns. It plays beautifully solo or with a full table, with no direct conflict between players."
   },
   {
     "id": "wingspan",
@@ -173,13 +225,19 @@
     "duration": "40–70 min",
     "ageRange": "10+",
     "difficulty": "Medium",
-    "tags": ["Engine Building", "Nature", "Card Game"],
+    "tags": [
+      "Engine Building",
+      "Nature",
+      "Card Game"
+    ],
     "howToPlay": [
       "Play bird cards into forest, grassland, or wetland habitats.",
       "Activate habitat rows to gain food, lay eggs, or draw cards.",
       "Chain bird abilities together to build a powerful engine.",
       "Highest score after 4 rounds — from birds, eggs, food, and bonuses — wins."
-    ]
+    ],
+    "image": "/games/wingspan.jpg",
+    "longDescription": "Wingspan turned heads on release for its stunning bird illustrations, but it holds up because the underlying engine-building mechanics are genuinely clever. Each bird card you play can trigger chains of bonus actions, making every turn feel productive."
   },
   {
     "id": "7-wonders",
@@ -191,13 +249,19 @@
     "duration": "30–45 min",
     "ageRange": "10+",
     "difficulty": "Medium",
-    "tags": ["Card Drafting", "Civilization", "Strategy"],
+    "tags": [
+      "Card Drafting",
+      "Civilization",
+      "Strategy"
+    ],
     "howToPlay": [
       "Draft one card from your hand each turn, then pass the rest along.",
       "Build structures, military, or wonder stages using resources.",
       "Compare military strength with neighbors at the end of each age.",
       "Highest total score from civilian, military, science, and wonders wins."
-    ]
+    ],
+    "image": "/games/7-wonders.jpg",
+    "longDescription": "7 Wonders is built for speed — every player acts simultaneously each round, so a full game rarely takes more than 45 minutes even with a full table. Despite the pace, there's real depth in balancing military strength, science, and civilian development."
   },
   {
     "id": "cryptid",
@@ -209,13 +273,19 @@
     "duration": "30–50 min",
     "ageRange": "10+",
     "difficulty": "Hard",
-    "tags": ["Deduction", "Logic", "Asymmetric"],
+    "tags": [
+      "Deduction",
+      "Logic",
+      "Asymmetric"
+    ],
     "howToPlay": [
       "Each player holds a private clue about the creature's location.",
       "Ask other players questions to gather information, revealed via their clue.",
       "Eliminate map spaces using logic until one remains.",
       "First to correctly guess the creature's exact location wins."
-    ]
+    ],
+    "image": "/games/cryptid.jpg",
+    "longDescription": "Cryptid is a purely logical deduction game with no bluffing involved — every player's clue is true, and the challenge is combining public questions with private information to narrow down one exact map location before anyone else."
   },
   {
     "id": "heat",
@@ -227,13 +297,19 @@
     "duration": "30–75 min",
     "ageRange": "10+",
     "difficulty": "Medium",
-    "tags": ["Racing", "Card Game", "Strategy"],
+    "tags": [
+      "Racing",
+      "Card Game",
+      "Strategy"
+    ],
     "howToPlay": [
       "Play speed cards from your hand to move your car along the track.",
       "Shift gears and manage heat cards to handle corners without spinning out.",
       "Slipstream behind rivals for extra speed on straights.",
       "First car to complete all laps wins the race."
-    ]
+    ],
+    "image": "/games/heat.jpg",
+    "longDescription": "Heat captures the feel of motorsport racing through card management rather than dice, forcing players to balance aggressive speed against the risk of overheating on tight corners. Slipstreaming past a rival on the final straight is one of the best feelings at the table."
   },
   {
     "id": "everdell",
@@ -245,13 +321,19 @@
     "duration": "40–80 min",
     "ageRange": "10+",
     "difficulty": "Hard",
-    "tags": ["City Building", "Engine Building", "Strategy"],
+    "tags": [
+      "City Building",
+      "Engine Building",
+      "Strategy"
+    ],
     "howToPlay": [
       "Gather resources by placing workers on the board each season.",
       "Play critter and construction cards to build your city.",
       "Chain card abilities together to grow your engine efficiently.",
       "Highest points from your city, events, and journey at game end wins."
-    ]
+    ],
+    "image": "/games/everdell.jpg",
+    "longDescription": "Everdell combines woodland-critter charm with a genuinely meaty engine-building system underneath. Building your city across four seasons means every early decision echoes through the rest of the game."
   },
   {
     "id": "castles-of-burgundy",
@@ -263,13 +345,19 @@
     "duration": "60–90 min",
     "ageRange": "12+",
     "difficulty": "Hard",
-    "tags": ["Dice Placement", "Territory Building", "Strategy"],
+    "tags": [
+      "Dice Placement",
+      "Territory Building",
+      "Strategy"
+    ],
     "howToPlay": [
       "Roll dice to select tiles from the central display each turn.",
       "Place tiles onto your player board to complete regions.",
       "Complete regions to trigger bonus actions and score points.",
       "Highest total score after five phases wins."
-    ]
+    ],
+    "image": "/games/castles-of-burgundy.jpg",
+    "longDescription": "Castles Of Burgundy is a dice-driven territory builder where luck sets your options but skillful placement determines your score. Its five-phase structure keeps every round feeling purposeful right up to the final tally."
   },
   {
     "id": "brass-birmingham",
@@ -281,13 +369,19 @@
     "duration": "90–120 min",
     "ageRange": "14+",
     "difficulty": "Hard",
-    "tags": ["Economic", "Network Building", "Heavy Strategy"],
+    "tags": [
+      "Economic",
+      "Network Building",
+      "Heavy Strategy"
+    ],
     "howToPlay": [
       "Build industry tiles and canal or rail links across the map.",
       "Sell goods to generate income and score victory points.",
       "Develop and upgrade industries to unlock stronger tiles.",
       "Highest combined score across both eras wins."
-    ]
+    ],
+    "image": "/games/brass-birmingham.jpg",
+    "longDescription": "Brass Birmingham is widely regarded as one of the most rewarding heavy strategy games available, spanning two distinct eras of industrial development. It demands careful economic planning, but the payoff for a well-timed network is immense."
   },
   {
     "id": "blood-on-the-clocktower",
@@ -299,12 +393,19 @@
     "duration": "60–120 min",
     "ageRange": "14+",
     "difficulty": "Hard",
-    "tags": ["Social Deduction", "Bluffing", "Narrator-Led"],
+    "tags": [
+      "Social Deduction",
+      "Bluffing",
+      "Narrator-Led",
+      "Party-Game"
+    ],
     "howToPlay": [
       "Each player is secretly assigned a good or evil role by the Storyteller.",
       "By night, evil roles act in secret; by day, the town debates and votes.",
       "Use claimed information and bluffing to identify the evil players.",
       "Good wins by executing all evil players; evil wins by eliminating enough good players."
-    ]
+    ],
+    "image": "/games/blood-on-the-clocktower.jpg",
+    "longDescription": "In the quiet town of Ravenswood Bluff, a hidden Demon is murdering the residents under the cover of night. By day, this Demon disguises themselves as a regular townsfolk.\n\nThis is the premise of Blood on the Clocktower, a social bluffing game where players split into two opposing teams: Good and Evil. A designated Storyteller oversees the game, managing the action and making critical decisions behind the scenes. The Good team wins if they can deduce who the Demon is and execute them before Evil outnumbers the town.\n\nThe game moves between day and night phases:\n\nDay Phase: Players talk openly or whisper privately to share clues or spread lies. The day ends with a town vote to execute a suspected Evil player.\n\nNight Phase: Everyone closes their eyes, and the Storyteller wakes players up one by one to use their unique abilities—whether that means gathering info, causing mischief, or committing murders.\n\nBecause the Storyteller manages all the physical game pieces, the rest of the group can play without needing a table or board. Every player gets a completely unique role with its own special ability. If your character dies, you stay in the game as a ghost and can still help your team win. Even late arrivals can join the game as \"Travellers\"—powerful characters with unpredictable loyalties."
   }
 ]
